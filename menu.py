@@ -220,7 +220,7 @@ selected_menu_items = []
 
 while True : 
 
-    # Show the user a menu, ask for their selection
+    # Show the user a menu, ask for their selection, record their response.
     user_input = get_menu_input( menu, selection )
 
     # If the user selects Main, we set the next menu to Main.
